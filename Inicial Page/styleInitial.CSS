@@ -1,0 +1,62 @@
+/* @charset "UTF-8";
+@font-face {
+    font-family: 'Cosmo';
+    src: url(../../../Fontes/LemonMilk/LEMONMILK-BoldItalic.otf);
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap'); */
+
+* {
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+/* font-family: 'Cosmo'; */
+
+nav{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.navegations{
+    display:flex;
+    width:600px;
+    justify-content:end;
+    margin-left:10px;
+    margin-right: 30px;
+}
+
+.listaNav{
+    display:flex;
+    list-style-type: none;
+}
+li{
+    padding: 4px;
+}
+#login{
+    padding-right: 20px;
+}
+
+main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.left{
+    display:flex;
+    flex-flow: column wrap;
+    width:250px;
+    height:304px;
+}
+main img{
+    width:200px;
+}
